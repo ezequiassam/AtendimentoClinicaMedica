@@ -23,3 +23,10 @@ O sistema terá um Crud de pacientes para se obter um melhor controle em todo pr
    * Buscar Paciente (descrição do paciente)
    * Gerenciamento de Disponibilidade de Salas (verificação se as salas estão disponíveis para atendimento)
    * Painel de Chamada de Paciente (informando a sala de atendimento e a senha do paciente)
+   
+  
+# TECNOLOGIAS UTILIZADAS
+   * BOOTSTRAP 3.0
+   * JSP
+   * Padrão MVC
+   * HSQLDB 2.4
