@@ -1,5 +1,6 @@
 package br.ucsal.processodesoftware.repositorio;
 
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -71,4 +72,13 @@ public class EspecialidadeDAO {
 		return listaEspecialidade;
 	}
 
+=======
+public class EspecialidadeDAO {
+
+	public String pesquisarEspecialidade(Integer id) {
+		String consulta = null;
+		// metodo de busca no banco..
+		return consulta;
+	}
+>>>>>>> b7082cad4f62b640b36ab7579201f66fa724ce4a
 }

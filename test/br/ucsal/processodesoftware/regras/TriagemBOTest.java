@@ -3,6 +3,7 @@ package br.ucsal.processodesoftware.regras;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
+<<<<<<< HEAD
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -49,4 +50,29 @@ public class TriagemBOTest {
 		triagembo.triagemPaciente("123", 1, "geral");
 	}
 
+=======
+import org.junit.Test;
+
+import br.ucsal.processodesoftware.model.Paciente;
+import br.ucsal.processodesoftware.model.PrioridadeEnum;
+
+public class TriagemBOTest {
+
+	private TriagemBO triagembo;
+	private Paciente paciente;
+
+	@Before
+	public void setUp() throws Exception {
+		triagembo = new TriagemBO();
+		paciente = new Paciente();
+	}
+
+	@Test
+	public void testDefinirPrioridade() {
+		triagembo.definirPrioridade(paciente, 1);
+		assertEquals(PrioridadeEnum.EMERGENCIA, paciente.getTriagem().getPrioridadeEnum());
+	}
+
+
+>>>>>>> b7082cad4f62b640b36ab7579201f66fa724ce4a
 }

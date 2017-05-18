@@ -1,5 +1,10 @@
 package br.ucsal.processodesoftware.model;
 
+<<<<<<< HEAD
+=======
+import br.ucsal.processodesoftware.repositorio.PacienteDAO;
+
+>>>>>>> b7082cad4f62b640b36ab7579201f66fa724ce4a
 public class Paciente {
 
 	private Integer id;
@@ -18,9 +23,16 @@ public class Paciente {
 
 	}
 
+<<<<<<< HEAD
 	public Paciente(String nome, String sobrenome, String nascimento, String rg, Integer cpf, SexoEnum sexo,
 			EstadoCivilEnum estadoCivil, Endereco endereco) {
 		super();
+=======
+	public Paciente(Integer id, String nome, String sobrenome, String nascimento, String rg, Integer cpf, SexoEnum sexo,
+			EstadoCivilEnum estadoCivil, Endereco endereco, Especialidade especialidade) {
+		super();
+		this.id = id;
+>>>>>>> b7082cad4f62b640b36ab7579201f66fa724ce4a
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.nascimento = nascimento;
@@ -29,6 +41,10 @@ public class Paciente {
 		this.sexo = sexo;
 		this.estadoCivil = estadoCivil;
 		this.endereco = endereco;
+<<<<<<< HEAD
+=======
+		this.especialidade = especialidade;
+>>>>>>> b7082cad4f62b640b36ab7579201f66fa724ce4a
 	}
 
 	public Integer getId() {
@@ -111,9 +127,15 @@ public class Paciente {
 		this.especialidade = especialidade;
 	}
 
+<<<<<<< HEAD
 	// public Paciente buscaPaciente(String rg) {
 	// return PacienteDAO.pesquisaPacienteRG(rg);
 	// }
+=======
+	public Paciente buscaPaciente(String rg) {
+		return PacienteDAO.pesquisaPacienteRG(rg);
+	}
+>>>>>>> b7082cad4f62b640b36ab7579201f66fa724ce4a
 
 	public Triagem getTriagem() {
 		return triagem;
