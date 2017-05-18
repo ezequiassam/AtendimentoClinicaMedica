@@ -1,0 +1,5 @@
+projectKey=Sistema:SGACM
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Sistema:SGACM
+ceTaskId=AVtxlX_DmUEdaU8k_JjP
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVtxlX_DmUEdaU8k_JjP
